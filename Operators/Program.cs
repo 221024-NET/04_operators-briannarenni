@@ -4,11 +4,11 @@ namespace Operators {
     public class Program {
         // Operator Methods
         public static int Increment(int num) {
-            return num++;
+            return ++num;
         }
 
         public static int Decrement(int num) {
-            return num--;
+            return --num;
         }
 
         public static bool Not(bool input) {
